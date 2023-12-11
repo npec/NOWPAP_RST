@@ -1,0 +1,13 @@
+#
+
+pillow
+h5py
+netcdf4
+matplotlib
+requests
+pyproj
+numpy
+opencv-python
+tqdm 
+scipy
+
