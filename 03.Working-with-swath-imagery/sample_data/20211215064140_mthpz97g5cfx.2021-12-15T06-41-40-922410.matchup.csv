@@ -1,0 +1,16 @@
+:BeginHeader
+Using satellite data from MODIS/AQUA
+Match-up generation datetime: 2021-12-15T06:44:59
+Investigator: emaure
+Contact: maure[at]npec.or.jp
+Missing: -999
+Delimiter: comma
+Header rows: 14
+VALIDATION CRITERIA applied to this match-up
+-Box size of satellite extract: 5 x 5 = 25 pixels
+-Minimum percent valid satellite pixels: 25.0
+-Maximum time difference between satellite and in situ: 3 h
+-Level-2 flags considered for data screening: ATMFAIL+LAND+CLDICE+CHLFAIL+NAVFAIL
+:EndHeader
+Filename,Sheetname,Station,Date,Time,Lat,Lon,CDOM [m$^{-1}$],CDOM$_{412(0.5+2)}$ [m$^{-1}$],CDOM$_{412}$ [m$^{-1}$],CDOM$_{440(0.5+2)}$ [m$^{-1}$],CDOM$_{440}$ [m$^{-1}$],Chla [mg m$^{-3}$],Chla$_{(0.5+2)}$ [mg m$^{-3}$],Datetime,Filename,Variable [Units],StartDatetime,EndDatetime,ValidPixels,InvalidPixels,Min,Max,Mean,STD,Median,PointValue,PixelValue01,PixelValue02,PixelValue03,PixelValue04,PixelValue05,PixelValue06,PixelValue07,PixelValue08,PixelValue09,PixelValue10,PixelValue11,PixelValue12,PixelValue13,PixelValue14,PixelValue15,PixelValue16,PixelValue17,PixelValue18,PixelValue19,PixelValue20,PixelValue21,PixelValue22,PixelValue23,PixelValue24,PixelValue25,PixelFlags01,PixelFlags02,PixelFlags03,PixelFlags04,PixelFlags05,PixelFlags06,PixelFlags07,PixelFlags08,PixelFlags09,PixelFlags10,PixelFlags11,PixelFlags12,PixelFlags13,PixelFlags14,PixelFlags15,PixelFlags16,PixelFlags17,PixelFlags18,PixelFlags19,PixelFlags20,PixelFlags21,PixelFlags22,PixelFlags23,PixelFlags24,PixelFlags25
+OAD180821.xls,観測及び分析結果,4,8/21/2018,2:47:00,36.8317,137.2533,-999,-999.0,-999.0,0.0458,-999.0,-999.0,0.945,2018-08-21T02:47:00,A2018233040500.L2_LAC_OC.nc,chlor_a [mg m^-3],2018-08-21T04:05:01,2018-08-21T04:09:59,9,16,0.56456959,4.42997885,1.46489095,2.00533019,1.35490680,-999,-999,-999,-999,3.93058777,4.42997885,-999,-999,-999,1.40964246,2.42603922,-999,-999,-999,1.15553296,1.35490680,-999,-999,-999,-999,0.95843786,-999,-999,-999,0.61575580,0.56456959,HILT+CLDICE+PRODFAIL,HILT+CLDICE+PRODFAIL,STRAYLIGHT+CLDICE+PRODFAIL,STRAYLIGHT+MAXAERITER+ATMWARN+PRODFAIL,STRAYLIGHT+MAXAERITER+ATMWARN+PRODFAIL,HILT+CLDICE+PRODFAIL,HILT+CLDICE+PRODFAIL,STRAYLIGHT+CLDICE+PRODFAIL,STRAYLIGHT,STRAYLIGHT+PRODFAIL,HILT+CLDICE+PRODFAIL,HILT+CLDICE+PRODFAIL,HILT+CLDICE+PRODFAIL,STRAYLIGHT,STRAYLIGHT,STRAYLIGHT+CLDICE+PRODFAIL,HILT+CLDICE+PRODFAIL,HILT+CLDICE+PRODFAIL,STRAYLIGHT+CLDICE+PRODFAIL,STRAYLIGHT,HILT+COASTZ+CLDICE+PRODFAIL,COASTZ+STRAYLIGHT+CLDICE+PRODFAIL,COASTZ+STRAYLIGHT+CLDICE+PRODFAIL,COASTZ+STRAYLIGHT,STRAYLIGHT
