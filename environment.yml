@@ -1,0 +1,22 @@
+name: nowpap_rst
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - h5py
+  - numpy
+  - pyproj
+  - python==3.9
+  - conda
+  - requests
+  - netcdf4
+  - pip
+  - tqdm
+  - pillow
+  - scipy
+  - matplotlib
+  - jupyter 
+  - notebook
+  - pip:
+      - opencv-python
+prefix: ~/anaconda3/envs/nowpap_rst
