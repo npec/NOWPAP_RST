@@ -242,7 +242,7 @@ def add_coastline(ax, file: Path = None, xlim=None, ylim=None):
     if file is None:
         print(Path('.').parent)
         file = '{}/{}'.format(Path('.').absolute().parent,
-                              'sutils/nowpap_sea.mat')
+                              'sutilsx/nowpap_sea.mat')
         # print(file)
     cline = sio.loadmat(file, variable_names=[key], squeeze_me=True).get(key)
 
