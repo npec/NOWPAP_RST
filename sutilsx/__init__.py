@@ -1064,7 +1064,7 @@ def nc_write(file: Path, data, varname: str, lon, lat, count=None):
     with Dataset(file, 'w') as trg:
         # Global attributes
         trg.setncatts({'product_name': basename,
-                       'Creator': 'NOWPAP-CEARAC (5th NOWPAP Training)',
+                       'Creator': 'NOWPAP-CEARAC (NOWPAP Training)',
                        'date_created': "{}".format(time.ctime())})
 
         # Create the dimensions of the file
@@ -1088,20 +1088,6 @@ def nc_write(file: Path, data, varname: str, lon, lat, count=None):
                           'valid_max': lon.max()})
         nc_dim[:] = lon
 
-        if count is not None:
-            """Creates the valid pixel count for the composite data"""
-            nc_dim = trg.createVariable('count', 'int16',
-                                        (u'lat', u'lon'),
-                                        zlib=True, complevel=6)
-            nc_dim.setncatts({
-                'standard_name': 'count of valid pixels'
-                , 'long_name': 'number of valid data in each pixel for the composite period'
-                , 'units': 'count'
-                , '_FillValue': np.int16(count.fill_value)
-                , 'valid_min': count.min().astype('int16')
-                , 'valid_max': count.max().astype('int16')})
-            nc_dim[:] = count
-
         comp = trg.createVariable(varname, 'float32',
                                   (u'lat', u'lon'),
                                   zlib=True, complevel=6)
@@ -1114,6 +1100,21 @@ def nc_write(file: Path, data, varname: str, lon, lat, count=None):
             , 'valid_max': data.max().astype(np.float32)
         })
         comp[:] = data
+
+        if count is not None:
+            """Creates the valid pixel count for the composite data"""
+            #nc_dim = trg.createVariable('count', 'int16',
+            nc_dim = trg.createVariable('valid_pixel_count', 'int16',
+                                        (u'lat', u'lon'),
+                                        zlib=True, complevel=6)
+            nc_dim.setncatts({
+                'standard_name': 'count of valid pixels'
+                , 'long_name': 'number of valid data in each pixel for the composite period'
+                , 'units': 'count'
+                , '_FillValue': np.int16(count.fill_value)
+                , 'valid_min': count.min().astype('int16')
+                , 'valid_max': count.max().astype('int16')})
+            nc_dim[:] = count
 
     elapsed = time.perf_counter() - start
     hour = int(elapsed // 3600)
