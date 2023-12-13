@@ -15,6 +15,7 @@ dependencies:
   - pillow
   - scipy
   - matplotlib
+  - natsort
   - jupyter 
   - notebook
   - pip:
