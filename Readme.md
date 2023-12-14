@@ -19,7 +19,7 @@ These courses are targeted at young scientists, postgraduate students, professio
 
 
 ---
-## Prerequisites:
+## Prerequisites: (for local environment only!)
 ---
 All hands-on use Jupyter Notebook to run Python code.   
 Please install Jupyter Notebook from this [link](https://www.anaconda.com/products/individual).
