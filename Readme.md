@@ -1,10 +1,8 @@
 # NOWPAP Training Course on Remote Sensing Data Analysis
 *** 
 
-
-
 ---
-The Special Monitoring and Coastal Environmental Assessment Regional Activity Centre (CEARAC), one of the four Regional Activity Centres (RACs) of the Northwest Pacific Action Plan (NOWPAP), will conduct an intensive training course on the analysis of remote sensing data for marine environment conservation, with a focus on the Northwest Pacific Ocean. 
+The Special Monitoring and Coastal Environmental Assessment Regional Activity Centre (CEARAC), one of the four Regional Activity Centres (RACs) of the Northwest Pacific Action Plan (NOWPAP), offers an intensive training course on the analysis of remote sensing data for marine environment conservation, with a focus on the Northwest Pacific Ocean. 
 The course consists of the following 2 themes;  
 
 ### Theme 1 ###
@@ -13,17 +11,17 @@ The course consists of the following 2 themes;
 ### Theme 2 ###
 - Mapping Seagrass by Optical Sensors  
 
-Both of them will include lectures by experts and hands-on tutorial sessions on analysis of satellite data for the participants to gain useful skills and knowledge to utilize remote sensing data for monitoring and assessing the coastal and marine environment. 
-Through the lectures and hands-on sessions, CEARAC will also introduce our recently developed monitoring and assessment tools (Seagrass Mapper, Seagrass Trainer, and Global Eutrophication Watch).
+Both of themes include lectures by experts and hands-on tutorial sessions on analysis of satellite data for the participants to gain useful skills and knowledge to utilize remote sensing data for monitoring and assessing the coastal and marine environment. 
+Through the lectures and hands-on sessions, CEARAC also introduces our recently developed monitoring and assessment tools (Seagrass Mapper, Seagrass Trainer, and Global Eutrophication Watch).
 
 ---
 These courses are targeted at young scientists, postgraduate students, professional researchers and local government officers working in the fields of marine sciences in the Northwest Pacific Region and adjacent area. 
 
 
 ---
-## Prerequisites
+## Prerequisites:
 ---
-All hands-on use Visual Studio Code to run Python code.   
+All hands-on use Jupyter Notebook to run Python code.   
 Please install Jupyter Notebook from this [link](https://www.anaconda.com/products/individual).
 
 Please also check this [Jupyter notebook](https://github.com/npec/NOWPAP_RST/anaconda-install-setup.ipynb) which explains how to have Jupyter notebook installed on different platforms.
@@ -52,3 +50,11 @@ If you are unable to have the system working on your computer, please let us kno
 ## Organizer:
 
 [NOWPAP CEARAC](http://cearac.nowpap.org/)
+
+---
+## For Inquiries
+Genki Terauchi (terauchi[at]npec.or.jp)
+
+---
+## License and terms of usage
+All the python codes provided here are distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).
