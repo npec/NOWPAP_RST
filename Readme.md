@@ -21,7 +21,9 @@ These courses are targeted at young scientists, postgraduate students, professio
 ---
 ## Prerequisites: (for local environment only!)
 ---
-All hands-on use Jupyter Notebook to run Python code provided [here](https://github.com/npec/NOWPAP_RST/archive/refs/heads/main.zip).   
+All hands-on use Jupyter Notebook to run Python code provided in this website so please download them from [here] 
+(https://github.com/npec/NOWPAP_RST/archive/refs/heads/main.zip) and locate to your local directory.   
+
 Please install Jupyter Notebook from this [link](https://www.anaconda.com/products/individual).
 
 Please also check this [Jupyter notebook](https://github.com/npec/NOWPAP_RST/anaconda-install-setup.ipynb) which explains how to have Jupyter notebook installed on different platforms.
@@ -29,7 +31,7 @@ Please also check this [Jupyter notebook](https://github.com/npec/NOWPAP_RST/ana
 After the installion is done, please install required modules using the [requirements.txt](https://github.com/npec/NOWPAP_RST/requirements.txt)   
 To do that (Windows)
 - Open Anaconda Prompt.
-- Type `pip install -r path_to_requirements/requirements.txt` then `enter`
+- Type `pip install -r {Your_Local_Path_to_NOWPAP_RST-main}/requirements.txt` then `enter`
 
 On MacOS, you should be able to install the requirements through the terminal by launching it using ANACONDA NAVIGATOR. 
 For MacOS users, it is worth checking this [help page](https://docs.anaconda.com/anaconda/install/mac-os/).
