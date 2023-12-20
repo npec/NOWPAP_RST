@@ -21,7 +21,7 @@ These courses are targeted at young scientists, postgraduate students, professio
 ---
 ## Prerequisites: (for local environment only!)
 ---
-All hands-on use Jupyter Notebook to run Python code provided [here](https://github.com/npec/NOWPAP_RST#:~:text=Download-,ZIP).   
+All hands-on use Jupyter Notebook to run Python code provided [here](https://github.com/npec/NOWPAP_RST/archive/refs/heads/main.zip).   
 Please install Jupyter Notebook from this [link](https://www.anaconda.com/products/individual).
 
 Please also check this [Jupyter notebook](https://github.com/npec/NOWPAP_RST/anaconda-install-setup.ipynb) which explains how to have Jupyter notebook installed on different platforms.
